@@ -8,6 +8,7 @@ public class ca_charAt {
         char ch2 = str.charAt(11);
         char ch3 = str.charAt(13);
 
+        System.out.println();
         System.out.println("Character at 0th index = " + ch1);
         System.out.println("Character at 11th index = " + ch2);
         System.out.println("Character at 13th index = " + ch3);
