@@ -1,0 +1,24 @@
+-   Streams
+    -   It let us manipulate collections of data in a declarative way.
+    -   (i.e) It is used to process collections of objects.
+
+-   In Java Streams, the stream operations are divided into,
+    -   Intermediate -- Eg., Stream.filter(), Stream.map()
+    -   Terminal -- Eg., Stream.forEach(), Stream.reduce()
+
+-   anyMatch
+    -   method is a terminal operation which returns whether any elements of this stream match the provided
+        predicate.
+
+-   allMatch
+    -   method is a terminal operation, when using this method all the elements must match the given predicate.
+
+-   nonMatch
+    -   method is a terminal operation which will return true if no elements  are matched by the predicate, and
+        false if one or more elements are matched.
+
+-   collect
+    -   this method is a terminal operation that starts the internal iteration of elements and collects the elements
+        in the stream in a collection or object of some kind.
+
+-
