@@ -53,7 +53,7 @@
     -   For instance, if you had a list of strings it could convert each string to lowercase,
         uppercase, or to a substring of the original string, or something completely else.
 
--   flatMap
+-   flatMap (intermediate operations)
     -   as the name suggests, is the combination of a Map and a Flat operation.
     -   this means, we first apply the map function and then flatten the result.
     -   To understand what flattening a stream consists in, consider a structure like [ [1,2,3],[4,5,6],[7,8,9] ],
@@ -61,4 +61,19 @@
         -   Flattening this means transforming it in a
             "one level" structure e.g. [ 1,2,3,4,5,6,7,8,9 ] i.e. just one list.
 
+-   distinct (intermediate operations)
+    -   it returns a new stream that will only contain the distinct elements from the original stream.
+    -   Any duplicates will be eliminated.
 
+-   limit
+    -   this method can limit the number of elements in a stream to a number given to the limit() method as a parameter.
+    -   it returns a new stream that will at most contain the given number of elements.
+
+-   peek
+    -   it is actually like a Logger used for debugging purpose for the recent function output
+
+-   sorted
+    -   returns a stream consisting of the elements of this stream, sorted according to natural order.
+
+-   skip
+    -   method is used to skip the first 'n' elements from the given Stream.
