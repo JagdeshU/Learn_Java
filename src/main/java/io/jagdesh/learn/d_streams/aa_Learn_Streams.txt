@@ -52,3 +52,13 @@
     -   this method converts(maps) an element to another object.
     -   For instance, if you had a list of strings it could convert each string to lowercase,
         uppercase, or to a substring of the original string, or something completely else.
+
+-   flatMap
+    -   as the name suggests, is the combination of a Map and a Flat operation.
+    -   this means, we first apply the map function and then flatten the result.
+    -   To understand what flattening a stream consists in, consider a structure like [ [1,2,3],[4,5,6],[7,8,9] ],
+        which has "two levels". It's basically a big List containing three more List.
+        -   Flattening this means transforming it in a
+            "one level" structure e.g. [ 1,2,3,4,5,6,7,8,9 ] i.e. just one list.
+
+
