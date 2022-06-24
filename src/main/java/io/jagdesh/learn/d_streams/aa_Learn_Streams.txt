@@ -77,3 +77,6 @@
 
 -   skip
     -   method is used to skip the first 'n' elements from the given Stream.
+
+-   generate
+    -
