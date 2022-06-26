@@ -1,4 +1,4 @@
-package io.jagdesh.learn.d_streams.aa_streams_examples;
+package io.jagdesh.learn.d_streams.zz_streams_examples;
 
 import java.util.List;
 import java.util.stream.Collectors;
