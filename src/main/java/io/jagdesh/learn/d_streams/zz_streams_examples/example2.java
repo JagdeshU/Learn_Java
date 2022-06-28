@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class some_stream_examples {
+public class example2 {
     public static void main(String[] args) {
 
         Stream<String> streamBuilder = Stream.<String>builder()

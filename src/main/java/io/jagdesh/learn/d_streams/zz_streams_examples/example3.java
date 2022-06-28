@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Stream_on_Set_List_Collections {
+public class example3 {
     public static void main(String[] args) throws IOException {
 
         Collection<String> collection = Arrays.asList("Java", "Spring", "React", "Angular");
