@@ -7,7 +7,7 @@ public class cb {
     //Default constructor
     cb() {
         this(10, 20);
-        System.out.println("Inside  default constructor \n");
+        System.out.println("Inside default constructor \n");
     }
 
     //Parameterized constructor
